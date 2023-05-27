@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"C:\Users\edwar\source\repos\PRIVATE\go\master\variable_basics\change_pointer.go"
+)
 
 func main() {
 	// Variables
@@ -31,9 +34,9 @@ func main() {
 	printFExamples()
 }
 
-func changePointerValue(x *int) {
-	*x = 10
-}
+// func changePointerValue(x *int) {
+// 	*x = 10
+// }
 
 func printFExamples() {
 	const pi float64 = 3.14159265358979323846
